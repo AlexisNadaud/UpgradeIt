@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="couleurPrincipale">#FF5C54</color>
+    <color name="couleurSecondaire">#000000</color>
+    <color name="couleurTertiaire">#FF5C54</color>
+    <color name="orangeClair">#FF4081</color>
+    <color name="noir">#000000</color>
+    <color name="blanc">#FFFFFF</color>
+    <color name="rouge">#c71313</color>
+</resources>
+

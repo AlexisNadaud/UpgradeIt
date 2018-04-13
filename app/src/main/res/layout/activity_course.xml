@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context="fr.alexisnadaud.upgradeit.Activities.CourseActivity">
+
+    <include
+    android:id="@+id/toolbar"
+    layout="@layout/toolbar" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="55dp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/titre_course"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="@string/titre_course"
+                        android:textColor="@color/noir"
+                        android:textSize="25dp"
+                        android:layout_marginTop="10dp" />
+
+                    <TextView
+                        android:id="@+id/text_chrono"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="@string/chrono"
+                        android:textColor="@color/noir"
+                        android:textSize="25dp" />
+
+                    <TextView
+                        android:id="@+id/temps_restant"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="@string/texte_temps"
+                        android:textColor="@color/noir"
+                        android:textSize="25dp" />
+
+                    <TextView
+                        android:id="@+id/texte_secondes"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="@string/texte_seconde"
+                        android:textColor="@color/noir"
+                        android:textSize="25dp" />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="10dp">
+
+                        <ImageView
+                            android:id="@+id/imageRond"
+                            android:layout_width="250dp"
+                            android:layout_height="250dp"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            app:srcCompat="@mipmap/rond"
+                            tools:layout_editor_absoluteX="11dp"
+                            tools:layout_editor_absoluteY="2dp" />
+
+                        <ImageView
+                            android:id="@+id/imageVoiture"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            app:srcCompat="@mipmap/voiture" />
+
+                        <fr.alexisnadaud.upgradeit.GifImageView
+                            android:id="@+id/GifImageView"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true" />
+
+                    </RelativeLayout>
+
+                    <Button
+                        android:id="@+id/bouton_demarrer"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="100dp"
+                        android:layout_marginRight="100dp"
+                        android:textColor="@color/blanc"
+                        android:background="@color/couleurPrincipale"
+                        android:textSize="22dp"
+                        android:text="@string/bouton_chrono"
+                        android:layout_marginTop="25dp"/>
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+
+
+        </ScrollView>
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:background="@color/couleurPrincipale">
+
+        <TextView
+            android:id="@+id/menu_garage"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/blanc"
+            android:text="@string/menu_garage"
+            android:textSize="22dp" />
+
+        <TextView
+            android:id="@+id/menu_game"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/blanc"
+            android:text="@string/menu_game"
+            android:textSize="22dp" />
+
+        <TextView
+            android:id="@+id/menu_stats"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textColor="@color/blanc"
+            android:gravity="center"
+            android:text="@string/menu_stats"
+            android:textSize="22dp" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

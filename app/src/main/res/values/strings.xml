@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Upgrade It ! </string>
+
+    //Main - Accueil
+    <string name="main_nb_points">1</string>
+    <string name="main_points"> Points !</string>
+    <string name="main_niveau">Niveau </string>
+    <string name="main_nb_niveau">1</string>
+
+    //Main - Messages
+    <string name="main_msg_felicitations">Félicitations !</string>
+    <string name="main_msg_niveau_sup">Niveau supérieur !</string>
+
+    //Menu
+    <string name="menu_garage">GARAGE</string>
+    <string name="menu_stats">STATS</string>
+    <string name="menu_course">COURSE</string>
+    <string name="menu_game">ACCUEIL</string>
+
+    //Titres
+    <string name="titre_garage">Garage</string>
+    <string name="titre_course">Course</string>
+    <string name="titre_stats">Statistiques</string>
+
+    //Garage
+    <string name="garage_amelioration">Améliorations :</string>
+    <string name="garage_roues">Roues : 1</string>
+    <string name="garage_carrosserie">Carrosserie : 1</string>
+    <string name="garage_moteur">Moteur : 1</string>
+    <string name="garage_freins">Freins : 1</string>
+    <string name="garage_bte_de_vit">Bte de vitesse : 1</string>
+    <string name="garage_nb_points">5371 pts</string>
+    <string name="garage_msg_erreur">Vous n\'avez pas assez de points disponibles !</string>
+
+    //Stats 
+    <string name="stats_joueur">Joueur :</string>
+    <string name="stats_pseudo_joueur">Pseudo</string>
+    <string name="stats_pts">Points :</string>
+    <string name="stats_nb_pts">0</string>
+    <string name="stats_clics">Clics :</string>
+    <string name="stats_nb_clics">0</string>
+    <string name="stats_voiture">Niveau voiture :</string>
+    <string name="stats_lvl_voiture">0</string>
+
+    //Course
+    <string name="bouton_chrono">Commencer</string>
+    <string name="chrono">Chronomètre</string>
+    <string name="texte_seconde"> secondes restantes !</string>
+    <string name="texte_temps">60</string>
+
+
+
+
+</resources>

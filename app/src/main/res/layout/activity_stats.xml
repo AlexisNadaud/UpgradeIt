@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context="fr.alexisnadaud.upgradeit.Activities.StatsActivity">
+
+    <include
+    android:id="@+id/toolbar"
+    layout="@layout/toolbar" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="55dp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    >
+
+                    <TextView
+                        android:id="@+id/titre_stats"
+                        android:layout_width="match_parent"
+                        android:gravity="center"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:textColor="@color/noir"
+                        android:text="@string/titre_stats"
+                        android:textSize="25dp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/imageVoiture"
+                            android:layout_width="wrap_content"
+                            android:layout_height="75dp"
+                            android:layout_weight="1"
+                            app:srcCompat="@mipmap/voiture" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:layout_margin="10dp">
+
+                        <TextView
+                            android:id="@+id/stats_joueur"
+                            android:layout_width="250dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="10dp"
+                            android:textColor="@color/noir"
+                            android:layout_weight="1"
+                            android:text="@string/stats_joueur"
+                            android:textSize="25dp" />
+
+                        <TextView
+                            android:id="@+id/stats_pseudo_joueur"
+                            android:layout_width="250dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="10dp"
+                            android:textColor="@color/noir"
+                            android:layout_weight="1"
+                            android:text="@string/stats_pseudo_joueur"
+                            android:gravity="center"
+                            android:textSize="25dp" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:layout_margin="10dp">
+
+                        <TextView
+                            android:id="@+id/stats_pts"
+                            android:layout_width="250dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="10dp"
+                            android:textColor="@color/noir"
+                            android:layout_weight="1"
+                            android:text="@string/stats_pts"
+                            android:textSize="25dp" />
+
+                        <TextView
+                            android:id="@+id/stats_nb_pts"
+                            android:layout_width="250dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="10dp"
+                            android:textColor="@color/noir"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="@string/stats_nb_pts"
+                            android:textSize="25dp" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:layout_margin="10dp">
+
+                        <TextView
+                            android:id="@+id/stats_clics"
+                            android:layout_width="250dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="10dp"
+                            android:textColor="@color/noir"
+                            android:layout_weight="1"
+                            android:text="@string/stats_clics"
+                            android:textSize="25dp" />
+
+                        <TextView
+                            android:id="@+id/stats_nb_clics"
+                            android:layout_width="250dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="10dp"
+                            android:textColor="@color/noir"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="@string/stats_nb_clics"
+                            android:textSize="25dp" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:layout_margin="10dp">
+
+                        <TextView
+                            android:id="@+id/stats_voiture"
+                            android:layout_width="250dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="10dp"
+                            android:textColor="@color/noir"
+                            android:layout_weight="1"
+                            android:text="@string/stats_voiture"
+                            android:textSize="25dp" />
+
+                        <TextView
+                            android:id="@+id/stats_lvl_voiture"
+                            android:layout_width="250dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="10dp"
+                            android:textColor="@color/noir"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="@string/stats_lvl_voiture"
+                            android:textSize="25dp" />
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+
+
+        </ScrollView>
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:background="@color/couleurPrincipale">
+
+        <TextView
+            android:id="@+id/menu_garage"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/blanc"
+            android:text="@string/menu_garage"
+            android:textSize="22dp" />
+
+        <TextView
+            android:id="@+id/menu_game"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/blanc"
+            android:text="@string/menu_game"
+            android:textSize="22dp" />
+
+        <TextView
+            android:id="@+id/menu_course"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textColor="@color/blanc"
+            android:gravity="center"
+            android:text="@string/menu_course"
+            android:textSize="22dp" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

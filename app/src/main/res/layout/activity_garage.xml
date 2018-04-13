@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="fr.alexisnadaud.upgradeit.Activities.GarageActivity">
+
+    <include
+    android:id="@+id/toolbar"
+    layout="@layout/toolbar" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="55dp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    >
+
+                    <TextView
+                        android:id="@+id/titre_garage"
+                        android:layout_width="match_parent"
+                        android:gravity="center"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:textColor="@color/noir"
+                        android:text="@string/titre_garage"
+                        android:textSize="25dp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/ameliorations"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:textColor="@color/noir"
+                            android:text="@string/garage_amelioration"
+                            android:textSize="25dp" />
+
+                        <ImageView
+                            android:id="@+id/imageVoiture"
+                            android:layout_width="wrap_content"
+                            android:layout_height="75dp"
+                            android:layout_weight="1"
+                            app:srcCompat="@mipmap/voiture" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:layout_margin="10dp">
+
+                        <TextView
+                            android:id="@+id/roues"
+                            android:layout_width="250dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="10dp"
+                            android:textColor="@color/noir"
+                            android:layout_weight="1"
+                            android:text="@string/garage_roues"
+                            android:textSize="25dp" />
+
+                        <TextView
+                            android:id="@+id/roues_prix"
+                            android:layout_width="100dp"
+                            android:gravity="right"
+                            android:layout_gravity="center"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/noir"
+                            android:text="100 pts "
+                            android:textSize="20dp" />
+
+                        <ImageView
+                            android:id="@+id/lvl_up_roues"
+                            android:layout_width="80dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            app:srcCompat="@mipmap/plus" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:layout_margin="10dp">
+
+                        <TextView
+                            android:id="@+id/carrosserie"
+                            android:textColor="@color/noir"
+                            android:layout_width="250dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:text="@string/garage_carrosserie"
+                            android:textSize="25dp" />
+
+                        <TextView
+                            android:id="@+id/carrosserie_prix"
+                            android:textColor="@color/noir"
+                            android:layout_width="100dp"
+                            android:gravity="right"
+                            android:layout_gravity="center"
+                            android:layout_height="wrap_content"
+                            android:text="100 pts "
+                            android:textSize="20dp" />
+
+                        <ImageView
+                            android:id="@+id/lvl_up_carrosserie"
+                            android:layout_width="80dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            app:srcCompat="@mipmap/plus" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:layout_margin="10dp">
+
+                        <TextView
+                            android:id="@+id/moteur"
+                            android:textColor="@color/noir"
+                            android:layout_width="250dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:text="@string/garage_moteur"
+                            android:textSize="25dp" />
+
+                        <TextView
+                            android:id="@+id/moteur_prix"
+                            android:textColor="@color/noir"
+                            android:layout_width="100dp"
+                            android:gravity="right"
+                            android:layout_gravity="center"
+                            android:layout_height="wrap_content"
+                            android:text="100 pts "
+                            android:textSize="20dp" />
+
+                        <ImageView
+                            android:id="@+id/lvl_up_moteur"
+                            android:layout_width="80dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            app:srcCompat="@mipmap/plus" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:layout_margin="10dp">
+
+                        <TextView
+                            android:id="@+id/freins"
+                            android:layout_width="250dp"
+                            android:textColor="@color/noir"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:text="@string/garage_freins"
+                            android:textSize="25dp" />
+
+                        <TextView
+                            android:id="@+id/freins_prix"
+                            android:layout_width="100dp"
+                            android:textColor="@color/noir"
+                            android:gravity="right"
+                            android:layout_gravity="center"
+                            android:layout_height="wrap_content"
+                            android:text="100 pts "
+                            android:textSize="20dp" />
+
+                        <ImageView
+                            android:id="@+id/lvl_up_freins"
+                            android:layout_width="80dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            app:srcCompat="@mipmap/plus" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:layout_margin="10dp">
+
+                        <TextView
+                            android:id="@+id/bte_de_vit"
+                            android:layout_width="250dp"
+                            android:textColor="@color/noir"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:text="@string/garage_bte_de_vit"
+                            android:textSize="25dp" />
+
+                        <TextView
+                            android:id="@+id/bte_de_vit_prix"
+                            android:layout_width="100dp"
+                            android:textColor="@color/noir"
+                            android:gravity="right"
+                            android:layout_gravity="center"
+                            android:layout_height="wrap_content"
+                            android:text="100 pts "
+                            android:textSize="20dp" />
+
+                        <ImageView
+                            android:id="@+id/lvl_up_bte_de_vit"
+                            android:layout_width="80dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            app:srcCompat="@mipmap/plus" />
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/garage_nb_points"
+                        android:layout_width="match_parent"
+                        android:gravity="center"
+                        android:textColor="@color/noir"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/garage_nb_points"
+                        android:textSize="25dp" />
+
+                    <TextView
+                        android:id="@+id/message_erreur"
+                        android:layout_width="match_parent"
+                        android:gravity="center"
+                        android:textColor="@color/rouge"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/garage_msg_erreur"
+                        android:textSize="25dp"
+                        android:layout_marginBottom="50dp"
+                        android:visibility="invisible"/>
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+
+
+        </ScrollView>
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:orientation="horizontal"
+        android:background="@color/couleurPrincipale">
+
+        <TextView
+            android:id="@+id/menu_stats"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/blanc"
+            android:text="@string/menu_stats"
+            android:textSize="22dp" />
+
+        <TextView
+            android:id="@+id/menu_game"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/blanc"
+            android:text="@string/menu_game"
+            android:textSize="22dp" />
+
+        <TextView
+            android:id="@+id/menu_course"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textColor="@color/blanc"
+            android:gravity="center"
+            android:text="@string/menu_course"
+            android:textSize="22dp" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>
