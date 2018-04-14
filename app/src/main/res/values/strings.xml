@@ -44,9 +44,10 @@
 
     //Course
     <string name="bouton_chrono">Commencer</string>
-    <string name="chrono">Chronomètre</string>
     <string name="texte_seconde"> secondes restantes !</string>
     <string name="texte_temps">60</string>
+    <string name="joueur1_points">J1 : 0 points</string>
+    <string name="joueur2_points">J2 : 0 points</string>
 
 
 

@@ -40,16 +40,6 @@ tools:context="fr.alexisnadaud.upgradeit.Activities.CourseActivity">
                         android:layout_marginTop="10dp" />
 
                     <TextView
-                        android:id="@+id/text_chrono"
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_weight="1"
-                        android:gravity="center"
-                        android:text="@string/chrono"
-                        android:textColor="@color/noir"
-                        android:textSize="25dp" />
-
-                    <TextView
                         android:id="@+id/temps_restant"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
@@ -112,6 +102,26 @@ tools:context="fr.alexisnadaud.upgradeit.Activities.CourseActivity">
                         android:textSize="22dp"
                         android:text="@string/bouton_chrono"
                         android:layout_marginTop="25dp"/>
+                    <TextView
+                        android:id="@+id/joueur1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="@string/joueur1_points"
+                        android:textColor="@color/noir"
+                        android:textSize="25dp" />
+
+                    <TextView
+                        android:id="@+id/joueur2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="@string/joueur2_points"
+                        android:textColor="@color/noir"
+                        android:textSize="25dp" />
+
 
                 </LinearLayout>
 
